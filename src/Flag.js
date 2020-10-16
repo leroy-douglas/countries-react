@@ -1,9 +1,9 @@
 import React from "react";
 import "./Flag.css";
 
-const Flag = ( { country } ) => {
+const Flag = ({ id, country, handler } ) => {
     return(
-        <div className="flag-container">
+        <div className="flag-container" id={id} onClick={handler}>
             <img src={country.flag} alt={`Flag for ${country.name}`} />
             <div className="country-flag-details">
                 <p className="country-name" >{country.name}</p>

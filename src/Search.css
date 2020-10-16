@@ -1,0 +1,11 @@
+/* import { fas } from "@fortawesome/free-solid-svg-icons"; */
+#search {
+    margin-top: 4rem;
+}
+
+#search input {
+    height: 2rem;
+    width: 30rem;
+    font-size: 2rem;
+    padding: 0.5rem ;
+}

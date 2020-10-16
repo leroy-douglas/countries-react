@@ -8,6 +8,10 @@
     border: 1px solid black;
 }
 
+.flag-container:hover {
+    cursor: pointer;
+}
+
 .flag-container img {
     width: 100%;
     border: 1px solid #111;

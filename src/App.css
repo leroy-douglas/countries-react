@@ -1,7 +1,18 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 10px;
+  width: 100%;
 }
+
+#ui-filters{
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+
 
 
 

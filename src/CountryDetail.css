@@ -1,0 +1,68 @@
+#country-detail{
+    display: flex;
+    padding-top: 2rem;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#back-button {
+    height: 3rem;
+    width: 10rem;
+    font-size: 2rem;
+}
+
+#country-detail .flag-container{
+    width: 350px;
+    margin: 0 auto;
+    padding-bottom: 0rem;
+}
+
+#country-detail .flag-container img {
+    width: 100%;
+    border: 1px solid #111;
+}
+
+#country-detail .flag-container:hover {
+    cursor: default;
+}
+
+.country-native-name, 
+.country-subregion, 
+
+
+.country-capital,
+.country-top-level-domain,
+.country-currencies,
+.country-languages {
+    margin-bottom: 0.3rem;
+}
+
+.country-native-name .label, 
+.country-subregion .label, 
+.country-capital .label,
+.country-top-level-domain .label,
+.country-currencies .label,
+.country-languages .label,
+.country-borders .label {
+    font-weight: bold;
+}
+
+
+.country-population, country-region, .country-subregion, .country-capital, .country-currencies,.country-borders{
+    margin-top: 8px;
+}
+
+
+#border-button-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#border-button-group button{
+    display: block;
+    width: 8rem;
+    height: 4rem;
+    margin: 0.2rem 1rem;
+}
+
